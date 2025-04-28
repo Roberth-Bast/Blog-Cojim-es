@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+/*
+Estamos dando un estilo a la etiqueta address, que es la que contiene la información de contacto del autor.
+*/
+
+
+body{
+	background: url("../images/cojimies.jpg")no-repeat center center fixed;
+	background-attachment: fixed;
+	backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(8px);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+}
+
+address{
+    font-size: .7rem;
+    font-family: serif;
+    color: dimgray;
+}
+header{
+	padding: .5%;
+    background: #283618;
+    color: #fefae0;
+}
+h1 {
+    text-align: center;
+    font-size: 55px;
+}
+h2{
+    text-align: left;
+    font-size: small;
+}
+h4{
+    text-align: right;
+    font-size: medium;
+}
+#intro header{
+    padding: .5%;
+    background: #283618;
+    color: #fefae0;
+}
+
+nav{
+    background: #bc6c25;
+    text-align: center;
+    border: 1px solid;
+}
+nav li{
+	list-style:none;
+    overflow: hidden;
+    display: inline-block
+}
+nav a{
+    border-radius: 5%;
+    border-radius: 4px;
+    padding: 12px;
+    line-height:25px;
+}
+nav a:hover{
+    background-color: #283618;
+    border: 1px solid;
+    color: #fefae0;
+    font-weight: bold;
+}
+
+.agrupar{
+    border: 1px;
+    margin: auto;
+}
+.agrupar2{
+	border: 1px;
+	margin: .2%;
+	width: 70%;
+
+	
+}
+section{
+	width: 98%;
+    background: #606c38;
+	color:#fefae0;
+	float: left;
+	text-align: center;
+}
+ 
+aside{
+	margin: 20px;
+	padding: 30px;
+	width: 25%;
+	border: 1px;
+	float : right;
+	align-items: center;
+	text-align: center;
+	background: #bc6c25;
+	color: #fefae0 ;
+}
+a{
+    text-decoration: none;
+}
+li a{
+    color:#fefae0 ;
+}
+
+#tags > a {
+    color: aqua;
+    font-weight: bold;
+    font-size: large;
+}
+figure{
+    text-align: center;
+    
+}
+img{
+    border-radius: 5%;
+    border: 5px solid black; 
+}
+
+#centering{
+    text-align: center;;
+}
+
+
+footer{
+	width:100%;
+	clear: both;
+}
+
+form{
+	display: grid;
+	place-items: center;
+	width: 100%;	
+	background:#fefae0;
+}
+
+table th{
+	color: #bc6c25;
+}
+.centro{
+	align-items:center;
+}
+.backgr{
+	    background-color: #f0f8ff;  /* Color azul claro */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
